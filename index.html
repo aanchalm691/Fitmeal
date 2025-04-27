@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitmeal Healthy Food Delivery</title>
+  <link rel = "apple-touch-icon" href = "images/apple.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--  cdn for logo slider-->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+
+</head>
+<body>
+  <header id="topbar" class="d-none d-lg-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-auto col-12 text-center d-none d-lg-block left-part">
+          <i class="fa-solid fa-location-dot"></i><span>900 lucerne Terrace, Orlando, FL 32806</span><i class="fa-solid fa-mobile-screen-button"></i><span><strong>+49260-5731-08</strong></span><i class="fa-solid fa-envelope"></i><span><a>support@fitmeal.us</a></span>  
+
+        </div>
+        <div class="col-xl-auto d-none d-xl-block ms-auto right-part">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-user"></i>
+          <a><i class="fa-solid fa-bag-shopping"></i></a><span>0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<nav class="navbar navbar-expand-xl sticky-top navbar-light bg-white" id="nav-bar">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav  mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span>home</span></a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">food delivery</a></li>
+              <li><a class="dropdown-item" href="#">healthy food</a></li>
+              <li><a class="dropdown-item" href="#">smoothie bar</a></li>
+              <li><a class="dropdown-item" href="#">nutritionist</a></li>
+            </ul>
+          </li>
+          <li class="nav-item  dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">about us</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#">Teams</a></li>
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item" href="#">404 Page</a></li>
+              <li class="dropdown dropend"><a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
+                <ul class="dropdown-menu dropdown-submenu-left" aria-labelledby="multilevelDropdownMenu1">
+
+                  <li><a class="dropdown-item " href="#">Gallery 2-Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery 3-Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery 4-Columns</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><span>products</span></a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+
+
+              <li><a class="dropdown-item" href="#">Shop</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+            </ul>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><span>blog</span></a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+
+              <li class="dropdown dropend">
+                <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog with Sidebar</a>
+                <ul class="dropdown-menu dropdown-submenu-left" aria-labelledby="multilevelDropdownMenu2">
+                  <li><a class="dropdown-item" href="#">Classic Right Sidebar</a></li>
+                  <li><a class="dropdown-item " href="#">Masonary with Right Sidebar</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown dropend"><a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog without Sidebar</a>
+                <ul class="dropdown-menu dropdown-submenu-left" aria-labelledby="multilevelDropdownMenu2">
+                  <li><a class="dropdown-item" href="#">Classic Blog</a></li>
+                  <li><a class="dropdown-item " href="#">Masonry 2-Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Masonry 3-Columns</a></li>
+
+                </ul>
+              </li>
+            </ul>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span>contacts</span></a>
+          </li>
+          <li class="nav-item dropdown1">
+            <a class="nav-link" href="#"><span>pages</span> <i class="fa-solid fa-angle-right dropbtn"></i></a>
+            <div class="dropdown-content">
+
+              <div class="row1 d-flex">
+                <div class="column1">
+                  <h6>typography</h6>
+                  <a href="#"><i class="fa-solid fa-font"></i><span>headers</span></a>
+                  <a href="#"><i class="fa-solid fa-align-left"></i><span>text</span></a>
+                  <a href="#"><i class="fa-solid fa-table-columns"></i><span>text columns</span></a>
+                  <a href="#"><i class="fa-regular fa-table-cells"></i><span>table</span></a>
+                  <a href="#"><i class="fa-solid fa-arrows-left-right"></i><span>separators</span></a>
+                </div>
+                <div class="column1">
+                  <h6>form elements</h6>
+                  <a href="#"><i class="fa-solid fa-arrow-pointer"></i><span>buttons</span></a>
+                  <a href="#"><i class="fa-solid fa-file-pen"></i><span>forms</span></a>
+
+                </div>
+                <div class="column1">
+                  <h6>shortcodes</h6>
+                  <a href="#"><i class="fa-solid fa-list"></i><span>accordions</span></a>
+                  <a href="#"><i class="fa-solid fa-triangle-exclamation"></i><span>alerts</span></a>
+                  <a href="#"><i class="fa-solid fa-table-cells-large"></i><span>tabs</span></a>
+                  <a href="#"><i class="fa-regular fa-square-caret-right"></i><span>shortcodes</span></a>
+
+                </div>
+                <div class="column1">
+                  <h6>lists</h6>
+                  <a href="#"><i class="fa-brands fa-gratipay"></i><span>icons</span></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i><span>social icons</span></a>
+                </div>
+              </div>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span>multipage</span></a>
+          </li>
+        </ul>
+        <button class="btn ms-auto">get menu</button>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <script type="text/javascript">
+    let dropdowns = document.querySelectorAll('.dropdown-toggle')
+    dropdowns.forEach((dd)=>{
+      dd.addEventListener('click', function (e) {
+        var el = this.nextElementSibling
+        el.style.display = el.style.display==='block'?'none':'block'
+      })
+    })
+  </script>
+  <section id="food-slider">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class=" carousel-item  active" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_01.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>healthy food delivery</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_02.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>balanced nutrition diet</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_03.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>muscle gain menus</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_04.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>delicious vegetarian meals</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_05.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>nutrition for a fit body</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="6500">
+          <img class="d-block w-100" src="images/slides/SLIDE_06.JPG">
+          <div class="carousel-container ">
+            <div class="carousel-content">
+              <h1>low-calorie dishes</h1>
+              <p>Duis eu commodo massa. Integer volutpat imperdiet libero vel laoreet. Sed euismod a ligula quis suscipit. Suspendisse potenti. Proin porta tristique urna, id commodo.</p>
+              <div class="carousel-box">
+                <a href="#" class="btn-main1">read more</a>
+                <a href="#" class="btn-main2">view plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-arrow-left-long"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="menu-logo-slider">
+
+
+
+    <div class="customer-logos slider">
+
+      <div class="slide-in-right slide ms-3">
+        <div class="menu-item d-flex ">
+          <div class="plate-img"><img src="images/menu/01_slimming.png" ></div>
+          <div class="plate-info w-100"> <h4>slimming menu</h4>
+
+            <p>800-1000 kkal</p>
+            <div class="d-block mb-2"><a class="btn-get">Get more</a></div>
+            <div class="d-block"><a class=" btn-read">Read more</a></div>
+
+          </div>
+        </div>
+      </a></div>
+
+      <div class="slide-in-right slide ms-3">
+        <div class="menu-item d-flex">
+          <div class="plate-img"><img src="images/menu/02_muscle.png"></div>
+          <div class="plate-info w-100">
+            <h4>muscle gain menu</h4>
+            <p>1400-2000 kkal</p> 
+            <div class="d-block mb-2"><a class="btn-get">Get more</a></div>
+            <div class="d-block"><a class=" btn-read">Read more</a></div>
+          </div>
+        </div>
+      </a></div>
+      <div class="slide-in-right slide ms-3">
+        <div class="menu-item d-flex">
+          <div class="plate-img"> <img src="images/menu/03_balanced.png"></div>
+          <div class="plate-info w-100">
+            <h4>balanced menu</h4>
+            <p>1200-1400 kkal</p> 
+            <div class="d-block mb-2"><a class="btn-get">Get more</a></div>
+            <div class="d-block"><a class=" btn-read">Read more</a></div>
+          </div> 
+        </div>
+      </a></div>
+
+      <div class="slide-in-right slide ms-3">
+        <div class="menu-item d-flex">
+          <div class="plate-img"> <img src="images/menu/04_vegan.png"></div>
+          <div class="plate-info w-100">  
+            <h4>vegetarian menu</h4>
+            <p>700-1000 kkal</p> 
+            <div class="d-block mb-2"><a class="btn-get">Get more</a></div>
+            <div class="d-block"><a class=" btn-read">Read more</a></div>
+          </div> 
+        </div>
+      </a></div>
+
+
+      <div class="slide-in-right slide ms-3">
+        <div class="menu-item d-flex">
+          <div class="plate-img"><img src="images/menu/05_office.png"></div>
+          <div class="plate-info w-100">  
+            <h4>office menu</h4>
+            <p>1200-1600 kkal</p>
+            <div class="d-block mb-2"><a class="btn-get">Get more</a></div>
+            <div class="d-block"><a class=" btn-read">Read more</a></div>
+          </div> 
+        </div>
+      </a></div> 
+
+
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-6 about-info mb-5 mb-xl-0 text-center text-xl-start">
+          <h1>Healthy and tasty foods with<br><span>natural ingridents</span></h1>
+          <p>Quisque pretium dolor turpis, quis blandit turpis semper ut. Nam malesuada eros nec luctus laoreet. Fusce sodales consequat velit eget dictum. Integer ornare magna vitae ex eleifend congue. Morbi sit amet nisi iaculis, fringilla orci nec.</p>
+          <a href="#" class="btn-info">Read more</a>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-5 mb-lg-0 text-center text-lg-start">
+          <div class="box-img">
+            <img src="images/health-bottle-cut.jpg" class="img-fluid bottle-img">
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 check-list text-start">
+
+          <ul class="list-unstyled check-list-box">
+            <li><i class="fa-solid fa-check"></i>Reduces weight</li>
+            <li><i class="fa-solid fa-check"></i>Exact calorie content</li>
+            <li><i class="fa-solid fa-check"></i>Improves health</li>
+            <li><i class="fa-solid fa-check"></i>No sugar and gluten</li>
+            <li><i class="fa-solid fa-check"></i>Adds strength and energy</li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section id="choose-us">
+    <div class="container">
+      <div class="row header">
+        <h1>Our benefits</h1>
+        <h2>Why customers choose us</h2>
+        <p>Quisque pretium dolor turpis, quis blandit turpis semper ut. Nam malesuada eros nec luctus laoreet. Fusce sodales consequat velit eget dictum. Integer ornare magna vitae ex eleifend congue. Morbi sit amet nisi iaculis, fringilla orci nec.</p>
+      </div>
+      <div class="row midbar">
+        <div class="col-xl-3 col-md-6">
+          <div class="choose-item">
+            <span><i class="fa-solid fa-bowl-food"></i></span>
+            <h1>Only natural food</h1>
+            <p>Nam malesuada eros nec luctus laoreet fusce sodales consequat</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="choose-item">
+            <span><i class="fa-solid fa-plate-wheat"></i></span>
+            <h1>Various dishes</h1>
+            <p>Nullam faucibus a libero quis vestibulum proin vestibulum</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="choose-item">
+            <span><i class="fa-solid fa-boxes-packing"></i></span>
+            <h1>Handy packaging</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="choose-item">
+            <span><i class="fa-solid fa-utensils"></i></span>
+            <h1>No frying</h1>
+            <p>Donec vitae turpis orci. In dignissim risus sed iaculis laoreet</p>
+          </div>
+        </div>
+      </div>
+
+      <div class=" container moving-plate">
+        <div class="row">
+          <div class="col-12 moving-plate-box">
+            <img src="images/plate_rounded.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="nutrition">
+    <div class="container">
+      <div class="row1 menu-tabs">
+        <div class="header">
+          <h1>Nutrition plans</h1>
+          <h2>choose your nutrition</h2>
+        </div>
+        <div class="row menu-btns">
+          <div class="col-lg-12">
+            <a class="menulinks" onclick="openMenu(event, 'slimming')" id="defaultOpen1">slimming menu</a>
+            <a class="menulinks" onclick="openMenu(event, 'muscle')">muscle gain menu</a>
+            <a class="menulinks" onclick="openMenu(event, 'balanced')">balanced menu</a>
+            <a class="menulinks" onclick="openMenu(event, 'office')">office menu</a>
+          </div>
+        </div>
+
+
+
+        <div  id="slimming" class="menucontent">
+          <div class="container">
+            <div class="row  menu-info">
+
+              <div class="col-lg-6 ">
+                <img class="img-fluid menu-img" src="images/menu-list/01_menu_slimming.jpg">
+              </div>
+              <div class="col-lg-6 text-lg-start text-center mt-5 mt-lg-0">
+                <h1>slimming menu</h1>
+                <h2>800-1000 kkal</h2>
+                <p>Aliquam semper elit sit amet lorem commodo, at feugiat sapien fermentum. Quisque iaculis, eros a interdum hendrerit, nulla lectus suscipit nisi, vitae sagittis ipsum nunc id sem. </p>
+                <h3><span>45.99</span>/week</h3>
+                <h4><a>order now</a> <a class="btn-menu mt-lg-0 mt-3">view menu</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div  id="muscle" class="menucontent">
+          <div class="container">
+            <div class="row  menu-info">
+
+              <div class="col-lg-6 ">
+                <img class="img-fluid menu-img d-lg-inline-block d-block w-100" src="images/menu-list/02_menu_muscle.jpg">
+              </div>
+              <div class="col-lg-6 text-lg-start text-center mt-5 mt-lg-0">
+                <h1>muscle gain menu</h1>
+                <h2>900-1100 kkal</h2>
+                <p>Ut pharetra, diam sed pretium aliquam, ipsum nunc imperdiet quam, quis sollicitudin mauris dui a odio. Ut orci purus, vehicula in nunc sed, imperdiet maximus ex. </p>
+                <h3><span>32</span>/week</h3>
+                <h4><a>order now</a> <a class="btn-menu mt-lg-0 mt-3">view menu</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div  id="balanced" class="menucontent">
+          <div class="container">
+            <div class="row  menu-info">
+
+              <div class="col-lg-6 ">
+                <img class="img-fluid menu-img" src="images/menu-list/03_menu_balanced.jpg">
+              </div>
+              <div class="col-lg-6 text-lg-start text-center mt-5 mt-lg-0">
+                <h1>balanced menu</h1>
+                <h2>700-900 kkal</h2>
+                <p>ellentesque sollicitudin venenatis sollicitudin. Nullam gravida egestas dui quis tincidunt. Quisque euismod iaculis egestas. Sed volutpat, dolor vitae luctus efficitur, purus nisl consectetu.</p>
+                <h3><span>19</span>/week</h3>
+                <h4><a>order now</a> <a class="btn-menu mt-lg-0 mt-3">view menu</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div  id="office" class="menucontent">
+          <div class="container">
+            <div class="row  menu-info">
+
+              <div class="col-lg-6 ">
+                <img class="img-fluid menu-img" src="images/menu-list/04_menu_vegans.jpg">
+              </div>
+              <div class="col-lg-6 text-lg-start text-center mt-5 mt-lg-0">
+                <h1>office menu</h1>
+                <h2>1100-1300 kkal</h2>
+                <p>Donec egestas eu sem sed vulputate. Nulla hendrerit neque a felis eleifend, a porttitor nibh sodales. In lorem est, semper in enim consectetur, maximus elementum leo.</p>
+                <h3><span>43.49</span>/week</h3>
+                <h4><a>order now</a> <a class="btn-menu mt-lg-0 mt-3">view menu</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section id="try">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 text-center text-white">
+          <h1>Try trial day<br> for only <span>5 dollars</span></h1>
+          <a class="btn-main1">order now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="delivery">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-lg-start text-center">
+          <h1><span>Free</span> food delivery every day at your convenience</h1>
+          <p>Quisque pretium dolor turpis, quis blandit turpis semper ut. Nam malesuada eros nec luctus laoreet. Fusce sodales consequat velit eget dictum. Integer ornare magna.</p>
+          <div class="d-inline-flex flex-column">
+            <h2 class="d-inline-flex align-items-center "><i class="fa-regular fa-clock"></i><a>Every day from 8:00 to 12:00</a></h2>
+            <h3 class="d-inline-flex align-items-center  "><i class="fa-solid fa-phone-volume"></i><a>+49260-5731-08</a></h3>
+          </div><br>
+          <a class="btn-main1">read more</a>
+        </div>
+        <div class="col-lg-8 mt-5">
+          <div class=" food d-md-flex justify-content-end align-items-start d-block">
+
+            <img src="images/free-food-2.png" class="person img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonial">
+    <div class="container">
+      <div class="row header">
+        <h1>Testimonials</h1>
+        <h2>What our clients say</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <i class="fa-solid fa-quote-right"></i>
+              <p>Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit amet augue placerat fringilla a id lacus.  lacinia condimentum.</p>
+
+              <img src="images/testimonial/team-02.jpg" class="img-fluid person-part" alt="">
+              <h5>Patric Stone</h5>
+
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-quote-right"></i>
+              <p>Maecenas ultricies felis sit amet libero scelerisque, ut eleifend leo mattis. Aliquam porta facilisis metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <img src="images/testimonial/team-07.jpg" class="img-fluid person-part" alt="">
+              <h5>Hugo James</h5>
+
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-quote-right"></i>
+              <p>Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit amet augue placerat fringilla a id lacus. Morbi viverra volutpat ex, </p>
+              <img src="images/testimonial/team-03.jpg" class="img-fluid person-part" alt="">
+              <h5>Cassie Carleton</h5>
+
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-quote-right"></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis at turpis eu faucibus. In dignissim, enim eu ornare aliquet, metus ex tempor neque, sit amet efficitur turpis lorem et odio.</p>
+              <img src="images/testimonial/team-05.jpg" class="img-fluid person-part" alt="">
+              <h5>Coby Sue</h5>
+
+            </div>
+
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-quote-right"></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis at turpis eu faucibus. In dignissim, enim eu ornare aliquet, metus ex tempor neque, sit amet efficitur turpis lorem et odio.</p>
+              <img src="images/testimonial/team-01.jpg" class="img-fluid person-part" alt="">
+              <h5>Stefanie Rashford</h5>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-arrow-left"></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <img src="images/testimonial/testimonials-bg.png" class="d-block w-100 flower">
+  </section>
+  <section id="subscribe">
+    <div class="container">
+      <h1><span>Subscribe</span> to our newsletter</h1>
+      <p>Quisque pretium dolor turpis, quis blandit turpis semper ut. Nam malesuada eros nec luctus laoreet. Quisque pretium dolor turpis, quis blandit.</p>
+      <input type="email" class="email-info" placeholder="Your email...">
+      <button class="sub-btn">Subscribe</button>
+    </div>
+  </section>
+  <section id="blogs">
+    <div class="container">
+      <div class="row header">
+        <h1>Food blogs</h1>
+        <h2>Recent articles</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-6">
+          <div class="blog-part">
+            <div class="img-part"><img src="images/blogs/blog_1.jpg" class="img-fluid"></div>
+            <h5 class="d-flex justify-content-center"> <button>Nutritionist</button></h5>
+            <div class="descrp text-center">
+              <h3>How many calories an adult needs per day</h3>
+              <p>Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Cras elementum nunc a purus s …</p>
+
+            </div>
+            <div class="comment d-flex justify-content-evenly">
+              <a><i class="fa-solid fa-calendar-days"></i> November 2, 2019</a>  <a><i class="fa-regular fa-comment"></i> 0 comments</a>
+            </div>
+          </div></div>
+          <div class="col-xl-4 col-lg-6">
+            <div class="blog-part">
+              <div class="img-part"><img src="images/blogs/blog_2.jpg" class="img-fluid"></div>
+              <h5 class="d-flex justify-content-center"> <button>Nutritionist</button></h5>
+              <div class="descrp text-center">
+                <h3>Best products for fitness nutrition and muscles</h3>
+                <p>Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Cras elementum nunc a purus s …</p>
+
+              </div>
+              <div class="comment d-flex  justify-content-evenly">
+                <a><i class="fa-solid fa-calendar-days"></i> November 2, 2019</a>  <a><i class="fa-regular fa-comment"></i> 0 comments</a>
+              </div>
+            </div></div>
+            <div class="col-xl-4 col-lg-6">
+              <div class="blog-part">
+                <div class="img-part"><img src="images/blogs/blog_3.jpg" class="img-fluid"></div>
+                <h5 class="d-flex justify-content-center"> <button>Nutritionist</button></h5>
+                <div class="descrp text-center">
+                  <h3>Best products for fitness nutrition and muscles</h3>
+                  <p>Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Cras elementum nunc a purus s …</p>
+
+                </div>
+                <div class="comment d-flex  justify-content-evenly">
+                  <a><i class="fa-solid fa-calendar-days"></i> November 2, 2019</a>  <a><i class="fa-regular fa-comment"></i> 0 comments</a>
+                </div>
+              </div></div></div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-auto btn-sub"><button class="btn-main1">Read more</button></div>
+
+              </div>
+            </div>
+          </section>
+          <section id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-3 raw1 text-start col-lg-6">
+                  <img src="images/logo-white.png" >
+                  <p> Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras vel elit felis. Vestibulum convallis ipsum id aliquam varius.</p>
+                  <h3><a><i class="fa-brands fa-twitter"></i></a>  <a><i class="fa-brands fa-facebook-f"></i></a> <a><i class="fa-brands fa-instagram"></i></a>  <a><i class="fa-brands fa-youtube"></i></a></h3>
+                </div>
+                <div class="col-xl-3 d-xl-block d-none raw3">
+                  <h1>Explore</h1>
+                  <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-chevron-right"></i> Home</li>
+                    <li><i class="fa-solid fa-chevron-right"></i> Blog</li>
+                    <li><i class="fa-solid fa-chevron-right"></i> Products</li>
+                    <li><i class="fa-solid fa-chevron-right"></i> Clients</li>
+                    <li><i class="fa-solid fa-chevron-right"></i> Contact us</li>
+                  </ul>
+                </div>
+                <div class="col-xl-3 raw2 col-lg-6  mt-5 mt-lg-0">
+                  <h1>Contact info</h1>
+                  <h2 class="d-flex"><i class="fa-solid fa-location-dot"></i><span> Our Location:</span></h2>
+                  <p>Goldschmidtstraße 13, 04103 Leipzig</p>
+                  <h3 class="d-flex" ><i class="fa-solid fa-phone-volume"></i><span> Phones:</span></h3>
+                  <p>+49078-039-23-11</p>
+                  <p>+49078-028-55-60</p>
+                </div>
+                <div class="col-xl-3 d-xl-block d-none">
+                  <h1>Instagram Post</h1>
+                  <h3 class="text-white">...</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="container">
+              <div class="row text-center">
+                <p>© Copyright 2023 Fitmeal. All Rights Reserved<span> Made by Aanchal Manocha</span>
+
+                </p>
+
+              </div>
+            </div>
+            <button class="upto-top show"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></button>
+          </footer>
+        </body>
+
+
+
+
+
+        <script type="text/javascript">
+
+// program for logo slider with arrows
+
+          $(document).ready(function(){
+            $('.customer-logos').slick({
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 8000,
+              arrows: true,
+              dots: false,
+              pauseOnHover: false,
+              prevArrow: '<i class="slick-prev fas fa-angle-left"></i>',
+              nextArrow: '<i class="slick-next fas fa-angle-right"></i>',
+              responsive: [{
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow: 2
+                }
+              }, {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1
+                }
+              }]
+            });
+          });
+          document.getElementById("defaultOpen1").click();
+// program for horizontal tabs
+          function openMenu(evt, cityName) {
+// Declare all variables
+            var i, menucontent, menulinks;
+
+// Get all elements with class="tablecontent" and hide them
+            menucontent = document.getElementsByClassName("menucontent");
+            for (i = 0; i < menucontent.length; i++) {
+              menucontent[i].style.display = "none";
+            }
+
+// Get all elements with class="tablelinks" and remove the class "active"
+            menulinks = document.getElementsByClassName("menulinks");
+            for (i = 0; i < menulinks.length; i++) {
+              menulinks[i].className = menulinks[i].className.replace(" active", "");
+            }
+
+// Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+
+
+        </script>
+
+        </html>
